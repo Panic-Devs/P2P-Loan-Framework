@@ -1,0 +1,105 @@
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #FAF5F1;
+}
+
+.left-section {
+  background-color: #292F36;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 100px;
+}
+.left-section-text {
+  color: #E0DBD8;
+  text-align: center;
+}
+
+.right-section {
+  padding-left: 3%;
+  padding-top: 1%;
+  color: #292F36;
+  flex: 1;
+}
+
+.custom-button {
+  background-color: transparent;
+  color: #FAF5F1;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  border-bottom: 2px solid #E0DBD8;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; 
+  text-align: center;
+  text-decoration: none; 
+}
+
+.custom-button:hover {
+  background-color: #A41F13;
+}
+
+.footer {
+  padding: 15%;
+  text-align: center;
+}
+
+.footer a {
+  color: #8F7A6E;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.overlay {
+  position:fixed;
+  right: 0;
+  top: 0;
+  max-width: 30%;
+  max-height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-right: 2px;
+  opacity: 100%;
+  z-index: 1000;
+}
+
+.login-signup {
+  
+  display: flex;
+  align-items: center;
+}
+
+.login-signup h3 {
+  
+  font-size: 1vw;
+  margin-right: 10px;
+  color: #A41F13;
+}
+/* Default Light Mode Styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Example dark mode button styles */
+.dark-mode .custom-button {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .info {
+  background-color: #1e1e1e;
+  color: white;
+}
