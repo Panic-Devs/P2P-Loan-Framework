@@ -1,70 +1,50 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# P2P-Loan System Framework
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The **P2P-Loan System Framework** is a peer-to-peer lending platform designed to facilitate seamless money transfers between friends. It provides users with the ability to send and receive money, while also keeping a detailed record of all transactions. The system is ideal for tracking loans, repayments, and overall financial exchanges in a simple, user-friendly manner.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Send and Request Money**: Users can easily send and request money with the click of a button.
+- **Transaction Management**: All transactions are logged and saved, allowing users to view the history of their sent and received amounts.
+- **Loan Tracking**: Keep track of outstanding loans and repayments with clear due dates.
+- **User-friendly Interface**: Simple, intuitive interface to ensure a smooth experience for both lenders and borrowers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend**: React.js, Ant Design
+- **Backend**: Firebase for data storage and user authentication
+- **Deployment**: Hosted on a cloud platform
+- **Version Control**: Git/GitHub for code management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Panic-Devs/P2P-Loan-Framework.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd p2p-loan-system
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up Firebase for backend functionality and authentication.
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We welcome contributions! Feel free to submit pull requests, report issues, or suggest new features.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
