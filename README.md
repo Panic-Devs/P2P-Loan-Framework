@@ -36,6 +36,7 @@ To run the project locally:
    npm install
    ```
 4. Set up Firebase for backend functionality and authentication.
+- Fill the firebase.js file is the src directory with the necessary Firebase keys (The application will not work without this step)
 5. Start the development server:
    ```bash
    npm start
